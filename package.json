@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.19.2"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "moment": "^2.19.2",
+    "serve-favicon": "^2.4.5"
   }
 }
