@@ -1,0 +1,16 @@
+{
+  "apps": [{
+    "name": "OnChainPulse",
+    "cwd": "/srv/www/onchainpulse",
+    "script": "npm",
+    "args": "start",
+    "env": {
+      "NODE_ENV": "production",
+      "PORT": 3001
+    },
+    "merge_logs": true,
+    "out_file": "/var/log/onchainpulse.com.out.log",
+    "error_file": "/var/log/onchainpulse.com.error.log",
+    "log_date_format": "YYYY-MM-DD HH:mm Z"
+    }]
+}
